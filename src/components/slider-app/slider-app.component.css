@@ -1,0 +1,30 @@
+#slider{
+    position: relative;
+    background-size: contain !important;
+    height: 540px;
+}
+
+#slider .title{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: rgba(255,255,255,0.8);
+    font-size: 30px;
+}
+
+#slider .image{
+    display: inline-block;
+    height: 100%;
+    width: 138px;
+    background-size: cover !important;
+}
+
+#slider .text{
+    font-size: 50px;
+    margin-left: 20px;
+}
